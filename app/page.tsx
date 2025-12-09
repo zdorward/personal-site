@@ -39,6 +39,14 @@ export default function Home() {
           >
             LinkedIn
           </a>
+          <a
+            className="rounded-full border border-zinc-300 dark:border-zinc-700 px-5 py-2 text-sm font-medium text-zinc-900 dark:text-zinc-50 hover:bg-zinc-900 hover:text-zinc-50 dark:hover:bg-zinc-50 dark:hover:text-zinc-900 transition"
+            href="https://zdorward.substack.com/subscribe?params=%5Bobject%20Object%5D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Newsletter
+          </a>
         </div>
       </div>
     </section>
