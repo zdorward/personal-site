@@ -16,6 +16,20 @@ export const projects: Project[] = [
     status: "live",
   },
   {
+    slug: "ama-demo",
+    title: "AMA Member Tools",
+    description:
+      "A mobile app made with Flutter, pending approval to the App Store.",
+    body: [
+      "Demo Flutter app that helps AMA members request roadside assistance",
+    ],
+    period: "2025",
+    tech: ["Flutter", "Dart", "XCode"],
+    githubUrl: "https://github.com/zdorward/ama_mobile",
+    status: "wip",
+    image: "/projects/ama.png",
+  },
+  {
     slug: "launchpad",
     title: "LaunchPad Employees Mobile App",
     description:
