@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import { books } from "@/lib/data/books";
 
+import { PageWrapper } from "@/components/PageWrapper";
+
 export default function BooksPage() {
   const sortedBooks = [...books].sort((a, b) => {
     const dateA = a.date ? new Date(a.date).getTime() : 0;
@@ -19,7 +21,7 @@ export default function BooksPage() {
   });
 
   return (
-    <section className="py-10 md:py-14 space-y-8 max-w-5xl">
+    <PageWrapper>
       <div className="space-y-3">
         <h1 className="text-3xl md:text-4xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
           Books
@@ -70,6 +72,6 @@ export default function BooksPage() {
           </Link>
         ))}
       </div>
-    </section>
+    </PageWrapper>
   );
 }

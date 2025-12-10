@@ -2,9 +2,12 @@ import Link from "next/link";
 
 import { projects } from "@/lib/data/projects";
 
+import { PageWrapper } from "@/components/PageWrapper";
+
 export default function PortfolioPage() {
   return (
-    <section className="py-10 md:py-14 space-y-8">
+    <PageWrapper>
+      {" "}
       <header className="space-y-3">
         <h1 className="text-3xl md:text-4xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
           Projects
@@ -15,7 +18,6 @@ export default function PortfolioPage() {
           differently next time.
         </p>
       </header>
-
       <div className="grid gap-6 md:gap-8 md:grid-cols-2">
         {projects.map((project) => (
           <Link
@@ -79,6 +81,6 @@ export default function PortfolioPage() {
           </Link>
         ))}
       </div>
-    </section>
+    </PageWrapper>
   );
 }

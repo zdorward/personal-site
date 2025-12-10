@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="w-full fixed top-0 left-0 z-50 border-b border-zinc-200 bg-zinc-50/80 dark:bg-black/60 dark:border-zinc-800 backdrop-blur-lg">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-zinc-200 bg-zinc-50/80 dark:bg-black/60 dark:border-zinc-800 backdrop-blur-lg">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between">
+        <nav className="flex h-16 items-center justify-between">
           <Link
             href="/"
             className="text-xl font-semibold tracking-tight hover:opacity-80 transition text-zinc-900 dark:text-zinc-50"
@@ -29,8 +29,8 @@ export default function NavBar() {
               Books
             </Link>
           </div>
-        </div>
+        </nav>
       </div>
-    </nav>
+    </header>
   );
 }
