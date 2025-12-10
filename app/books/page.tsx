@@ -52,18 +52,16 @@ export default function BooksPage() {
             <h2 className="text-lg font-medium text-zinc-900 dark:text-zinc-50 mb-1">
               {book.title}
             </h2>
-            {/* <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-1">
-              {book.date} — {book.finishedReading ? "Finished" : "In progress"}
-            </p> */}
 
             <div className="flex items-center gap-1 text-amber-500 mb-2">
-              {book.rating ? (
-                Array.from({ length: book.rating }).map((_, i) => (
-                  <span key={i}>★</span>
-                ))
-              ) : (
-                <span className="text-zinc-400">In progress</span>
-              )}
+              {Array.from({ length: 5 }).map((_, i) => (
+                <span
+                  key={i}
+                  className={i < (book.rating || 0) ? "" : "text-zinc-400"}
+                >
+                  ★
+                </span>
+              ))}
             </div>
 
             <p className="text-sm text-zinc-600 dark:text-zinc-400">

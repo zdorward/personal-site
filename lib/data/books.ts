@@ -52,11 +52,13 @@ export const books: Book[] = [
     author: "Steven Bartlett",
     image: "/books/happy-sexy-millionaire.jpg",
     link: "https://www.amazon.com/s?k=Happy+Sexy+Millionaire+Steven+Bartlett",
+    description: "In progress",
   },
   {
     title: "Atomic Habits",
     author: "James Clear",
     image: "/books/atomic-habits.jpg",
     link: "https://www.amazon.com/s?k=Atomic+Habits+James+Clear",
+    description: "In progress",
   },
 ];
