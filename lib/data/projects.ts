@@ -7,12 +7,30 @@ export const projects: Project[] = [
     description:
       "An experimental micro-SaaS to test ideas around tiny tools, pricing, and onboarding friction.",
     body: [
-      "A breakdown of the micro‑SaaS experiment, including onboarding experiments, pricing tests, and what I learned from user feedback.",
+      "I came up this project by cold knocking on the doors of business owners.",
+      "I had a great conversation with Pro Drain Techs in Edmonton, and they showed me a problem that they've been actively trying to solve: generating formatted inspection reports. Their current process was ok, but it was time consuming inputting the same notes every time they filled out a report.",
+      "They were looking for a program that let them check off a few boxes, and then a formatted pdf was generated. That's what I built",
     ],
     period: "2025",
-    tech: ["Next.js", "TypeScript", "Supabase"],
+    tech: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
     githubUrl: "https://github.com/zdorward/pro-drain-reports",
     prodUrl: "https://pro-drain-reports.vercel.app/login",
+    status: "live",
+  },
+  {
+    slug: "warm-welcome",
+    title: "Warm Welcome",
+    description:
+      "An accountant facing platform to seamlessly onboard new clients, and better understand their accounting needs",
+    body: [
+      "I come from a family of accountants. I broke the trend and become a software engineer.",
+      "Talking with my family members, it become evident that the onboarding process for new clients was painful and cumbersome.",
+      "I built Warm Welcome to help clarify what new clients are looking for in their accountant, leading to better communication, and a successful business relationship.",
+    ],
+    period: "2025",
+    tech: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
+    githubUrl: "https://github.com/zdorward/warm-welcome",
+    prodUrl: "https://warmwelcome-flame.vercel.app/login",
     status: "live",
   },
   {
