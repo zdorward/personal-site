@@ -28,13 +28,6 @@ export default function NavBar() {
             >
               Books
             </Link>
-
-            {/* <Link
-              href="/blog"
-              className="text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-zinc-100 transition font-medium"
-            >
-              Blog
-            </Link> */}
           </div>
         </div>
       </div>
