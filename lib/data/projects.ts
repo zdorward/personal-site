@@ -19,7 +19,7 @@ export const projects: Project[] = [
     slug: "pro-drain-reports",
     title: "Pro Drain Reports",
     description:
-      "An experimental micro-SaaS to test ideas around tiny tools, pricing, and onboarding friction.",
+      "A micro-SaaS for drain inspection companies to generate formatted pdf inspection reports",
     body: [
       "I came up this project by cold knocking on the doors of business owners.",
       "I had a great conversation with Pro Drain Techs in Edmonton, and they showed me a problem that they've been actively trying to solve: generating formatted inspection reports. Their current process was ok, but it was time consuming inputting the same notes every time they filled out a report.",
