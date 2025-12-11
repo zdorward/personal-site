@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description:
       "A mobile app made with Flutter, pending approval to the App Store.",
     body: [
-      "Demo Flutter app that helps AMA members request roadside assistance",
+      "Demo Flutter app that helps AMA members request roadside assistance.",
     ],
     period: "Dec 2025",
     tech: ["Flutter", "Dart", "Android Studio", "XCode"],
@@ -19,11 +19,11 @@ export const projects: Project[] = [
     slug: "pro-drain-reports",
     title: "Pro Drain Reports",
     description:
-      "A micro-SaaS for drain inspection companies to generate formatted pdf inspection reports",
+      "A micro-SaaS for drain inspection companies to generate formatted pdf inspection reports.",
     body: [
       "I came up this project by cold knocking on the doors of business owners.",
       "I had a great conversation with Pro Drain Techs in Edmonton, and they showed me a problem that they've been actively trying to solve: generating formatted inspection reports. Their current process was ok, but it was time consuming inputting the same notes every time they filled out a report.",
-      "They were looking for a program that let them check off a few boxes, and then a formatted pdf was generated. That's what I built",
+      "They were looking for a program that let them check off a few boxes, and then a formatted pdf was generated. That's what I built.",
     ],
     period: "Nov 2025",
     tech: ["Next.js", "Supabase"],
@@ -35,7 +35,7 @@ export const projects: Project[] = [
     slug: "warm-welcome",
     title: "Warm Welcome",
     description:
-      "An accountant facing platform to seamlessly onboard new clients, and better understand their accounting needs",
+      "An accountant facing platform to seamlessly onboard new clients, and better understand their accounting needs.",
     body: [
       "I come from a family of accountants. I broke the trend and become a software engineer.",
       "Talking with my family members, it become evident that the onboarding process for new clients was painful and cumbersome.",
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     slug: "goal-getter",
     title: "Goal Getter",
     description:
-      "2nd place in University of Alberta Engineering Competition (programming section)",
+      "2nd place in University of Alberta Engineering Competition (programming section).",
     body: ["An app designed to make meeting your goals fun."],
     period: "Nov 2024",
     tech: ["Next.js", "Python", "Firebase"],
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     slug: "alouette",
     title: "Alouette",
     description:
-      "3rd place in Western Engineering Competition (programming section)",
+      "3rd place in Western Engineering Competition (programming section).",
     body: [
       "A Vue.js web game designed to educate you about BC wildlife, with an accompanying quiz to test your knowledge.",
       "Entrace to the competiton was granted based on winning the University of Alberta Competition (UAEC) programming section.",
