@@ -8,7 +8,7 @@ export type Project = {
   status?: "live" | "wip" | "archived";
   githubUrl?: string;
   prodUrl?: string;
-  image?: string;
+  logo?: string;
 };
 
 export type Book = {
