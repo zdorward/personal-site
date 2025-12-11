@@ -52,7 +52,7 @@ export const projects: Project[] = [
     slug: "goal-getter",
     title: "Goal Getter",
     description:
-      "2nd place winner of University of Alberta Engineering Competition (programming section)",
+      "2nd place in University of Alberta Engineering Competition (programming section)",
     body: ["An app designed to make meeting your goals fun."],
     period: "Nov 2024",
     tech: ["Next.js", "Python", "Firebase"],
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     slug: "alouette",
     title: "Alouette",
     description:
-      "3rd place at Western Engineering Competition (programming section)",
+      "3rd place in Western Engineering Competition (programming section)",
     body: [
       "A Vue.js web game designed to educate you about BC wildlife, with an accompanying quiz to test your knowledge.",
       "Entrace to the competiton was granted based on winning the University of Alberta Competition (UAEC) programming section.",
