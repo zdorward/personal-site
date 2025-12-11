@@ -21,9 +21,9 @@ export default async function ProjectDetailPage({
     <article className="py-10 md:py-14 space-y-8 max-w-3xl">
       <div className="space-y-3">
         <div className="flex items-center gap-4">
-          {project.image && (
+          {project.logo && (
             <Image
-              src={project.image}
+              src={project.logo}
               alt={`${project.title} icon`}
               width={150}
               height={150}
