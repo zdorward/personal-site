@@ -2,6 +2,21 @@ import { Project } from "@/lib/types";
 
 export const projects: Project[] = [
   {
+    slug: "lumber-risk-sandbox",
+    title: "Lumber Risk Sandbox",
+    description:
+      "A hedging and risk-analysis sandbox that models the impact of a trend-based partial hedge on a long lumber price exposure.",
+    body: [
+      "This project pulls historical lumber futures data, applies a moving-average trend rule, and simulates how a 70% hedge would have affected P&L and volatility.",
+      "The platform includes a FastAPI backend, a Streamlit dashboard, and a Dockerized environment for easy demo deployment.",
+      "Users can adjust moving-average windows and notional exposure to see how different hedge parameters influence returns and risk.",
+    ],
+    period: "Feb 2025",
+    tech: ["FastAPI", "Streamlit", "Python", "Docker"],
+    githubUrl: "https://github.com/zdorward/lumber-risk-sandbox",
+    status: "wip",
+  },
+  {
     slug: "ama-demo",
     title: "AMA Member Tools",
     description:
