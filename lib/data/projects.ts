@@ -2,6 +2,21 @@ import { Project } from "@/lib/types";
 
 export const projects: Project[] = [
   {
+    slug: "neale-gold-law",
+    title: "Neale Gold Law",
+    description:
+      "A professional website for an appellate law practice in San Diego, California.",
+    body: [
+      "Built a clean, professional website for Neale Gold, an appellate attorney with over 800 appeals litigated across California's six appellate districts.",
+      "The site features a refined design with sage green and gold accents, showcasing practice areas including Appeals, Statutory & Common Law Writs, and Legal Research.",
+    ],
+    period: "Feb 2025",
+    tech: ["Next.js", "Tailwind CSS"],
+    githubUrl: "https://github.com/zdorward/neale-website",
+    prodUrl: "https://www.nealegold.com",
+    status: "live",
+  },
+  {
     slug: "lumber-risk-sandbox",
     title: "Lumber Risk Sandbox",
     description:
