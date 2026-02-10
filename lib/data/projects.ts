@@ -2,6 +2,20 @@ import { Project } from "@/lib/types";
 
 export const projects: Project[] = [
   {
+    slug: "wattson",
+    title: "Wattson",
+    description:
+      "A power market data pipeline to ingest, process, and query electricity market data from multiple ISOs.",
+    body: [
+      "Wattson fetches raw data from ISO APIs (CAISO, IESO, PJM), stores original files for audit compliance, then transforms data into standardized Parquet format for analytics.",
+      "Features a CLI and Dagster UI for pipeline orchestration, with DuckDB for embedded analytical queries across Parquet files.",
+    ],
+    period: "Feb 2026",
+    tech: ["Python", "Dagster", "DuckDB", "Cloudflare R2", "Pydantic"],
+    githubUrl: "https://github.com/zdorward/wattson",
+    status: "wip",
+  },
+  {
     slug: "neale-gold-law",
     title: "Neale Gold Law",
     description:
