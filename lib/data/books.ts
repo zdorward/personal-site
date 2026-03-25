@@ -59,6 +59,8 @@ export const books: Book[] = [
     author: "James Clear",
     image: "/books/atomic-habits.jpg",
     link: "https://www.amazon.com/s?k=Atomic+Habits+James+Clear",
-    description: "In progress",
+    rating: 5,
+    date: "2026-03-24",
+    description: "Small changes, remarkable results. Will re-read to lock it in.",
   },
 ];

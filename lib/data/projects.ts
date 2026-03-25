@@ -2,6 +2,30 @@ import { Project } from "@/lib/types";
 
 export const projects: Project[] = [
   {
+    slug: "signal",
+    title: "Signal",
+    description: "AI-native hiring infrastructure.",
+    body: [
+      "Signal is an AI-native platform built to modernize hiring infrastructure — helping companies move faster and smarter when finding and evaluating talent.",
+    ],
+    period: "Mar 2026",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "Vercel", "Railway", "Claude", "Whisper"],
+    prodUrl: "https://signal.zackdorward.com",
+    status: "live",
+  },
+  {
+    slug: "athlos",
+    title: "Athlos",
+    description: "Data-driven marathon training.",
+    body: [
+      "Athlos helps marathon runners train smarter using data-driven insights and personalized plans built around their performance metrics.",
+    ],
+    period: "Mar 2026",
+    tech: ["Next.js", "Vercel", "Neon"],
+    prodUrl: "https://athlos.run",
+    status: "live",
+  },
+  {
     slug: "wattson",
     title: "Wattson",
     description:
